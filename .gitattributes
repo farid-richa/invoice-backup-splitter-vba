@@ -1,0 +1,4 @@
+# Keep .bas/.cls byte-for-byte with Windows line endings (CRLF):
+# the VBA editor can drop lines when importing files with LF endings.
+*.bas -text
+*.cls -text
